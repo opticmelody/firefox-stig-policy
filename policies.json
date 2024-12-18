@@ -1,0 +1,97 @@
+{
+  "policies": {
+    "SSLVersionMin": "tls1.2",
+    "EnableTrackingProtection": {
+      "Fingerprinting": true,
+      "Cryptomining": true
+    },
+    "SanitizeOnShutdown": {
+      "Cache": false,
+      "Cookies": false,
+      "Downloads": false,
+      "FormData": false,
+      "History": false,
+      "Sessions": false,
+      "SiteSettings": false,
+      "OfflineApps": false,
+      "Locked": true
+    },
+    "FirefoxHome": {
+      "Search": false,
+      "TopSites": false,
+      "SponsoredTopSites": false,
+      "Pocket": false,
+      "SponsoredPocket": false,
+      "Highlights": false,
+      "Snippets": false,
+      "locked": true
+    },
+    "DisableFeedbackCommands": true,
+    "DisableTelemetry": true,
+    "DisableFirefoxStudies": true,
+    "DisablePocket": true,
+    "Preferences": {
+      "dom.disable_window_flip": {
+        "Value": true,
+        "Status": "locked"
+      },
+      "dom.disable_window_move_resize": {
+        "Value": true,
+        "Status": "locked"
+      },
+      "extensions.htmlaboutaddons.recommendations.enabled": {
+        "Value": false,
+        "Status": "locked"
+      },
+      "security.default_personal_cert": {
+        "Value": "Ask Every Time",
+        "Status": "locked"
+      },
+      "browser.contentblocking.category": {
+        "Value": "strict",
+        "Status": "locked"
+      },
+      "browser.search.update": {
+        "Value": false,
+        "Status": "locked"
+      }
+    },
+    "InstallAddonsPermission": {
+      "Default": false
+    },
+    "DisableFormHistory": true,
+    "PopupBlocking": {
+      "Allow": [
+        "https://example.com/"
+      ],
+      "Default": true,
+      "Locked": true
+    },
+    "DisableFirefoxAccounts": true,
+    "DNSOverHTTPS": {
+        "Enabled": false
+    },
+    "UserMessaging": {
+      "ExtensionRecommendations": false
+    },
+    "DisabledCiphers": {
+      "TLS_RSA_WITH_3DES_EDE_CBC_SHA": true
+    },
+    "PasswordManagerEnabled": false,
+    "EncryptedMediaExtensions": {
+      "Enabled": false,
+      "Locked": true
+    },
+    "SearchSuggestEnabled": false,
+    "ExtensionUpdate": false,
+    "DisableForgetButton": true,
+    "DisablePrivateBrowsing": true,
+    "NetworkPrediction": false,
+    "DisableDeveloperTools": true,
+    "Permissions": {
+      "Autoplay": {
+        "Default": "block-audio-video"
+      }
+    }
+  }
+}
